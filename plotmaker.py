@@ -1,5 +1,5 @@
 class PlotMaker():
-    '''A set of functions to make different kinds of plots. Specify an input file (.csv), an output file (.png), and columns to use as a python list of integers
+    '''A set of functions for making different kinds of plots. Specify an input file (.csv), an output file (.png), and columns to use as a python list of integers
        Other parameters can be changed in the code'''
   
       
