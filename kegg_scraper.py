@@ -6,7 +6,7 @@ def kegg_gene_scraper(myfile,baseurl,output_file):
         Input is a csv file (myfile) with at least two columns. One column has the KEGG Ids for pathways ("KEGG ID")
         while the other ('Pathway Name') has corresponding pathway names. Base url is url without the pathway variable part.
         (e.g. http://www.genome.jp/dbget-bin/www_bget?pathway+mmu for mouse pathways). The code does webscraping
-        and retrieves gene lists (Entrez Ids, and Gene symbols) for all pathways (here, 45 pathways)
+        and retrieves gene lists (Entrez Ids, and Gene symbols) for all pathways
         listed in the input file. It then writes the genes lists per pathway as separate .csv files to a
         specified local disk (output_file)'''
 
